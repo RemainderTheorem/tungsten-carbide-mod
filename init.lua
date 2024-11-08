@@ -5,7 +5,7 @@ print("WC has loaded")
 
 minetest.register_tool("tungsten_carbide:wc_pickaxe",{
 	description = "Tungsten carbide pickaxe",
-	inventory_image = "multitool_diamond.png",
+	inventory_image = "tungsten_carbide_pickaxe.png",
 	tool_capabilities = {
 		full_punch_interval = 0.9,
 		max_drop_level=0,
@@ -20,7 +20,7 @@ minetest.register_tool("tungsten_carbide:wc_pickaxe",{
 })
 minetest.register_tool("tungsten_carbide:wc_axe",{
 	description = "Tungsten carbide axe",
-	inventory_image = "multitool_mese.png",
+	inventory_image = "tungsten_carbide_axe.png",
 	tool_capabilities = {
 		full_punch_interval = 0.8,
 		max_drop_level=0,
@@ -36,7 +36,7 @@ minetest.register_tool("tungsten_carbide:wc_axe",{
 
 minetest.register_tool("tungsten_carbide:wc_shovel",{
 	description = "Tungsten carbide shovel",
-	inventory_image = "multitool_diamond.png",
+	inventory_image = "tungsten_carbide_shovel.png",
 	tool_capabilities = {
 		full_punch_interval = 0.9,
 		max_drop_level=0,
@@ -52,7 +52,7 @@ minetest.register_tool("tungsten_carbide:wc_shovel",{
 
 minetest.register_tool("tungsten_carbide:wc_sword",{
 	description = "Tungsten carbide sword",
-	inventory_image = "multitool_diamond.png",
+	inventory_image = "tungsten_carbide_sword.png",
 	tool_capabilities = {
 		full_punch_interval = 0.5,
 		max_drop_level=0,
