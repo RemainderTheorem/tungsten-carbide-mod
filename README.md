@@ -1,2 +1,1 @@
-# tungsten-carbide-mod
-Adds tungsten carbide tools to minetest
+this mod is not yet complete 
