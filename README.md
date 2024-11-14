@@ -5,10 +5,10 @@ Adds tools that are made up of tungsten carbide to minetest (download:https://ww
 # Present Features
 
 Added tools
- tungsten carbide pickaxe,
- tungsten carbide axe,
- tungsten carbide shovel,
- tungsten carbide sword.
+* tungsten carbide pickaxe,
+* tungsten carbide axe,
+* tungsten carbide shovel,
+* tungsten carbide sword.
 
 # Recipes to craft the tools 
 
