@@ -16,7 +16,7 @@ Search for tungsten carbide in ContentDB (https://content.luanti.org/)
 
 # Credits
 
-[dye](https://github.com/minetest/minetest_game/tree/master/mods/dye) by Perttu Ahola (celeron55) <celeron55@gmail.com> (CC BY-SA 3.0)
+[dye](https://github.com/minetest/minetest_game/tree/master/mods/dye) by Perttu Ahola (celeron55) <celeron55@gmail.com>, Remaindertheorem (CC BY-SA 3.0)
 
 * Tungsten_carbide_black_carbon.png
 * Tungsten_carbide_cobalt_powder.png
@@ -24,7 +24,7 @@ Search for tungsten carbide in ContentDB (https://content.luanti.org/)
 * Tungsten_carbide_W_bc_mix.png
 * Tungsten_carbide_WCCo.png
 
-[default](https://github.com/minetest/minetest_game/tree/master/mods/default) byBlockMen (CC BY-SA 3.0)
+[default](https://github.com/minetest/minetest_game/tree/master/mods/default) byBlockMen, Remaindertheorem (CC BY-SA 3.0)
 
 * Tungsten_carbide_axe.png
 * Tungsten_carbide_cobalt_ingot.png
