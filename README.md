@@ -24,7 +24,7 @@ Search for tungsten carbide in ContentDB (https://content.luanti.org/)
 * Tungsten_carbide_W_bc_mix.png
 * Tungsten_carbide_WCCo.png
 
-[default](https://github.com/minetest/minetest_game/tree/master/mods/default) byBlockMen (CC BY-SA 3.0):
+[default](https://github.com/minetest/minetest_game/tree/master/mods/default) byBlockMen (CC BY-SA 3.0)
 
 * Tungsten_carbide_axe.png
 * Tungsten_carbide_cobalt_ingot.png
