@@ -242,7 +242,7 @@ core.register_craft({
 
 core.register_craft({
     type = "shapeless",
-    output = "tungsten_carbide:WCCo_mix ",
+    output = "tungsten_carbide:WCCo_mix",
     recipe = {
         "tungsten_carbide:W_bc_mix",
         "tungsten_carbide:cobalt_powder",
@@ -251,7 +251,7 @@ core.register_craft({
 
 core.register_craft({
     type = "shapeless",
-    output = "tungsten_carbide:fm_pick ",
+    output = "tungsten_carbide:fm_pick",
     recipe = {
         "tungsten_carbide:WCCo_mix 5",
         "tungsten_carbide:mold_pick",
@@ -260,7 +260,7 @@ core.register_craft({
 
 core.register_craft({
     type = "shapeless",
-    output = "tungsten_carbide:fm_axe ",
+    output = "tungsten_carbide:fm_axe",
     recipe = {
         "tungsten_carbide:WCCo_mix 5",
         "tungsten_carbide:mold_axe",
@@ -269,7 +269,7 @@ core.register_craft({
 
 core.register_craft({
     type = "shapeless",
-    output = "tungsten_carbide:fm_shovel ",
+    output = "tungsten_carbide:fm_shovel",
     recipe = {
         "tungsten_carbide:WCCo_mix 3",
         "tungsten_carbide:mold_shovel",
@@ -278,7 +278,7 @@ core.register_craft({
 
 core.register_craft({
     type = "shapeless",
-    output = "tungsten_carbide:fm_sword ",
+    output = "tungsten_carbide:fm_sword",
     recipe = {
         "tungsten_carbide:WCCo_mix 4",
         "tungsten_carbide:mold_sword",
@@ -582,4 +582,160 @@ core.register_craft({
         "default:coal_lump",
         "tungsten_carbide:mortar",
     },
+})
+
+-- Armor
+
+minetest.register_tool("tungsten_carbide:helmet_tungsten_carbide", {
+    description = ("Tungsten Carbide Helmet"),
+    inventory_image = "tungsten_carbide_inv_helmet_tungsten_carbide.png",
+    groups = {armor_head=1, armor_heal=12, armor_use=100, armor_fire=1},
+    armor_groups = {fleshy=15},
+    damage_groups = {cracky=2, snappy=1, level=3},
+})
+
+minetest.register_tool("tungsten_carbide:chestplate_tungsten_carbide", {
+    description = ("Tungsten Carbide Chestplate"),
+    inventory_image = "tungsten_carbide_inv_chestplate_tungsten_carbide.png",
+    groups = {armor_torso=1, armor_heal=12, armor_use=100, armor_fire=1},
+    armor_groups = {fleshy=20},
+    damage_groups = {cracky=2, snappy=1, level=3},
+})
+
+minetest.register_tool("tungsten_carbide:leggings_tungsten_carbide", {
+    description = ("Tungsten Carbide Leggings"),
+    inventory_image = "tungsten_carbide_inv_leggings_tungsten_carbide.png",
+    groups = {armor_legs=1, armor_heal=12, armor_use=100, armor_fire=1},
+    armor_groups = {fleshy=20},
+    damage_groups = {cracky=2, snappy=1, level=3},
+})
+
+minetest.register_tool("tungsten_carbide:boots_tungsten_carbide", {
+    description = ("Tungsten Carbide Boots"),
+    inventory_image = "tungsten_carbide_inv_boots_tungsten_carbide.png",
+    groups = {armor_feet=1, armor_heal=12, armor_use=100, physics_speed=1, physics_jump=0.1, armor_fire=1},
+    armor_groups = {fleshy=15},
+    damage_groups = {cracky=2, snappy=1, level=3},
+})
+-- Shield
+--[[
+minetest.register_tool("tungsten_carbide:shield_tungsten_carbide", {
+    description = ("Tungsten Carbide Shield"),
+    inventory_image = "tungsten_carbide_inv_shield_tungsten_carbide.png",
+    groups = {armor_shield=1, armor_heal=12, armor_use=100, armor_fire=1},
+    armor_groups = {fleshy=15},
+    damage_groups = {cracky=2, snappy=1, level=3},
+    reciprocate_damage = true,
+})--]]
+
+-- Molds Armor
+
+core.register_craftitem("tungsten_carbide:mold_chest_plate", {
+description = "Chest plate mold",
+inventory_image = "tungsten_carbide_mold_chest_plate.png"
+})
+
+core.register_craftitem("tungsten_carbide:mold_boots", {
+description = "Boots mold",
+inventory_image = "tungsten_carbide_boots_mold.png"
+})
+
+core.register_craftitem("tungsten_carbide:mold_leggings", {
+description = "Leggings mold",
+inventory_image = "tungsten_carbide_mold_leggings.png"
+})
+
+core.register_craftitem("tungsten_carbide:mold_helmet", {
+description = "Helmet mold",
+inventory_image = "tungsten_carbide_helmet_mold.png"
+})
+
+-- Filled Mold Armor
+
+core.register_craftitem("tungsten_carbide:fm_mold_chest_plate", {
+description = "Filled chest plate mold",
+inventory_image = "tungsten_carbide_fm_mold_chest_plate.png"
+})
+
+core.register_craftitem("tungsten_carbide:fm_mold_boots", {
+description = "Filled boots mold",
+inventory_image = "tungsten_carbide_boots_fm_mold.png"
+})
+
+core.register_craftitem("tungsten_carbide:fm_mold_leggings", {
+description = "Filled leggings mold",
+inventory_image = "tungsten_carbide_fm_mold_leggings.png"
+})
+
+core.register_craftitem("tungsten_carbide:fm_mold_helmet", {
+description = "Filled helmet mold",
+inventory_image = "tungsten_carbide_helmet_fm_mold.png"
+})
+
+-- Filled Mold Recipes
+
+core.register_craft({
+    type = "shapeless",
+    output = "tungsten_carbide:fm_mold_helmet",
+    recipe = {
+        "tungsten_carbide:WCCo_mix 5",
+        "tungsten_carbide:mold_helmet",
+    },
+})
+
+core.register_craft({
+    type = "shapeless",
+    output = "tungsten_carbide:fm_mold_leggings",
+    recipe = {
+        "tungsten_carbide:WCCo_mix 7",
+        "tungsten_carbide:mold_leggings",
+    },
+})
+
+core.register_craft({
+    type = "shapeless",
+    output = "tungsten_carbide:fm_mold_chest_plate",
+    recipe = {
+        "tungsten_carbide:WCCo_mix 8",
+        "tungsten_carbide:mold_chest_plate",
+    },
+})
+
+core.register_craft({
+    type = "shapeless",
+    output = "tungsten_carbide:fm_mold_boots",
+    recipe = {
+        "tungsten_carbide:WCCo_mix 4",
+        "tungsten_carbide:mold_boots",
+    },
+})
+
+-- Craft armor
+
+core.register_craft({
+    type = "cooking",
+    output = "tungsten_carbide:boots_tungsten_carbide",
+    recipe = "tungsten_carbide:fm_mold_boots",
+    cooktime = 40,
+})
+
+core.register_craft({
+    type = "cooking",
+    output = "tungsten_carbide:helmet_tungsten_carbide",
+    recipe = "tungsten_carbide:fm_mold_helmet",
+    cooktime = 40,
+})
+
+core.register_craft({
+    type = "cooking",
+    output = "tungsten_carbide:leggings_tungsten_carbide",
+    recipe = "tungsten_carbide:fm_mold_leggings",
+    cooktime = 40,
+})
+
+core.register_craft({
+    type = "cooking",
+    output = "tungsten_carbide:chestplate_tungsten_carbide",
+    recipe = "tungsten_carbide:fm_mold_chest_plate",
+    cooktime = 40,
 })
