@@ -43,6 +43,29 @@ CREDITS
 * Tungsten_carbide_tungsten_lump.png
 * Tungsten_carbide_tungsten_ore.png
 
+[3d_armor](https://github.com/minetest-mods/3d_armor/tree/master/armor_crystal/textures) by davidthecreator, Remaindertheorem (CC-BY-SA 3.0)
+
+* tungsten_carbide_boots_fm_mold.png
+* tungsten_carbide_boots_mold.png
+* tungsten_carbide_boots_tungsten_carbide.png
+* tungsten_carbide_chestplate_tungsten_carbide.png
+* tungsten_carbide_fm_mold_chest_plate.png
+* tungsten_carbide_fm_mold_leggings.png
+* tungsten_carbide_helmet_fm_mold.png
+* tungsten_carbide_helmet_mold.png
+* tungsten_carbide_helmet_tungsten_carbide.png
+* tungsten_carbide_inv_boots_tungsten_carbide.png
+* tungsten_carbide_inv_chestplate_tungsten_carbide.png
+* tungsten_carbide_inv_helmet_tungsten_carbide.png
+* tungsten_carbide_inv_leggings_tungsten_carbide.png
+* tungsten_carbide_leggings_tungsten_carbide.png
+* tungsten_carbide_mold_chest_plate.png
+* tungsten_carbide_mold_leggings.png
+
+[3d_armor](https://github.com/minetest-mods/3d_armor/tree/master/armor_crystal/textures) by davidthecreator (CC-BY-SA 3.0)
+
+* tungsten_carbide_inv_shield_tungsten_carbide.png
+
 You are free to:
 Share — copy and redistribute the material in any medium or format.
 Adapt — remix, transform, and build upon the material for any purpose, even commercially.
