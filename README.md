@@ -8,7 +8,8 @@ Added tools
 * tungsten carbide pickaxe,
 * tungsten carbide axe,
 * tungsten carbide shovel,
-* tungsten carbide sword.
+* tungsten carbide sword,
+* tungsten carbide armor.
 
 # Recipes to craft the tools 
 
@@ -44,3 +45,26 @@ Search for tungsten carbide in ContentDB (https://content.luanti.org/)
 * Tungsten_carbide_tungsten_ingot.png
 * Tungsten_carbide_tungsten_lump.png
 * Tungsten_carbide_tungsten_ore.png
+
+[3d_armor](https://github.com/minetest-mods/3d_armor/tree/master/armor_crystal/textures) by davidthecreator, Remaindertheorem (CC-BY-SA 3.0)
+
+* tungsten_carbide_boots_fm_mold.png
+* tungsten_carbide_boots_mold.png
+* tungsten_carbide_boots_tungsten_carbide.png
+* tungsten_carbide_chestplate_tungsten_carbide.png
+* tungsten_carbide_fm_mold_chest_plate.png
+* tungsten_carbide_fm_mold_leggings.png
+* tungsten_carbide_helmet_fm_mold.png
+* tungsten_carbide_helmet_mold.png
+* tungsten_carbide_helmet_tungsten_carbide.png
+* tungsten_carbide_inv_boots_tungsten_carbide.png
+* tungsten_carbide_inv_chestplate_tungsten_carbide.png
+* tungsten_carbide_inv_helmet_tungsten_carbide.png
+* tungsten_carbide_inv_leggings_tungsten_carbide.png
+* tungsten_carbide_leggings_tungsten_carbide.png
+* tungsten_carbide_mold_chest_plate.png
+* tungsten_carbide_mold_leggings.png
+
+[3d_armor](https://github.com/minetest-mods/3d_armor/tree/master/armor_crystal/textures) by davidthecreator (CC-BY-SA 3.0)
+
+* tungsten_carbide_inv_shield_tungsten_carbide.png
